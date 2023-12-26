@@ -7,11 +7,13 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { SignupValidation } from "@/lib/validation"
+import Loader from "@/components/shared/Loader"
+
 
 
 
 const SignupForm = () => {
-
+  const isLoading = false;
   const form = useForm<z.infer<typeof SignupValidation>>({
     resolver: zodResolver(SignupValidation),
     defaultValues: {
@@ -59,7 +61,7 @@ const SignupForm = () => {
               <FormItem>
                 <FormLabel>Username</FormLabel>
                 <FormControl>
-                  <Input type="text" placeholder="Enter username" className="shad-input" {...field} />
+                  <Input type="text" placeholder="Enter your username" className="shad-input" {...field} />
                 </FormControl>
                 <FormDescription>
                 </FormDescription>
@@ -74,7 +76,7 @@ const SignupForm = () => {
               <FormItem>
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input type="email" placeholder="Enter an email" className="shad-input" {...field} />
+                  <Input type="email" placeholder="Enter your email" className="shad-input" {...field} />
                 </FormControl>
                 <FormDescription>
                 </FormDescription>
@@ -82,7 +84,30 @@ const SignupForm = () => {
               </FormItem>
             )}
           />
-          <Button type="submit">Submit</Button>
+          <FormField
+            control={form.control}
+            name="password"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Password</FormLabel>
+                <FormControl>
+                  <Input type="password" placeholder="Enter your password" className="shad-input" {...field} />
+                </FormControl>
+                <FormDescription>
+                </FormDescription>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <Button type="submit"className="shad-button_primary flex-col gap-5 w-full mt-4" >
+            {
+              isLoading ? (
+                <div className="flex-center gap-2">
+                  <Loader/> Loading...
+                </div>
+              ): "Sign up"
+            }
+          </Button>
         </form>
         </div>
       </Form>
