@@ -1,5 +1,6 @@
 import * as z from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
+import { Link } from 'react-router-dom'
 import { useForm } from "react-hook-form"
 import { Button } from "@/components/ui/button"
 import {
@@ -25,9 +26,8 @@ const SignupForm = () => {
   })
 
 
-  function onSubmit(values: z.infer<typeof SignupValidation>) {
-
-    console.log(values)
+  async function onSubmit(values: z.infer<typeof SignupValidation>) {
+    // const newUser = await createUserAccount(values);
   }
 
   return (
@@ -36,7 +36,7 @@ const SignupForm = () => {
           <img src="/assets/images/logo.jpeg" alt="logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">Create a new account</h2>
-          <p className="text-light-3 small-medium md:base-regular mt-2">Enter your account details</p>
+          <p className="text-light-3 small-medium md:base-regular mt-2">Please enter your account details</p>
         
         <form onSubmit={form.handleSubmit(onSubmit)} className="flex-col gap-5 w-full mt-4">
           <FormField
@@ -108,6 +108,11 @@ const SignupForm = () => {
               ): "Sign up"
             }
           </Button>
+
+          <p className="text-small-regular text-light-2 text-center mt-2">
+            Already have an account? 
+            <Link to="/sign-in" className="text-primary-500 text-small-semibold ml-1 pb-2">Log in</Link>
+          </p>
         </form>
         </div>
       </Form>
