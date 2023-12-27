@@ -1,6 +1,6 @@
 <div align="center">
 
-  ` I'm still working on this project:) `
+  ` I am currently working on this project, and I plan to add visual elements, such as screenshots or demo videos, at a later stage:) `
   
   <img src="public/assets/images/logo for github readme.png" alt="StellarNet Logo">
   <h1>StellarNet - A Full Stack Social Media App</h1>
