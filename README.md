@@ -1,4 +1,7 @@
 <div align="center">
+
+  ` I'm still working on this project:) `
+  
   <img src="public/assets/images/logo for github readme.png" alt="StellarNet Logo">
   <h1>StellarNet - A Full Stack Social Media App</h1>
   <p>
@@ -29,7 +32,6 @@
 ## Introduction
 
 StellarNet is a cutting-edge Social Media App designed to foster meaningful connections and seamless content sharing. It merges a sleek user interface with robust backend services to provide an unparalleled user experience.
-` I'm still working on this project & hopefully i will be able to finish the whole project within upcoming 10-15 days:) `
 
 ## Features
 
@@ -94,7 +96,6 @@ Before you begin, ensure you have the following tools installed:
 ## Storage And Database Design
 
 <img width="1440" alt="Database Design" src="https://github.com/falselunatic/StellarNet/assets/97685305/8b5e6a99-42ef-4b6b-a0a7-d97c8dae6d45">
-
 
 ## Contributors
 
