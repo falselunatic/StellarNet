@@ -56,7 +56,7 @@ Before you begin, ensure you have the following tools installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/falselunatic/stellarnet.git
+    git clone https://github.com/falselunatic/StellarNet.git 
     ```
 
 2. **Install dependencies:**
@@ -79,7 +79,7 @@ Before you begin, ensure you have the following tools installed:
 
 5. **Open your browser:**
 
-    Navigate to [http://localhost:3000](http://localhost:3000) to see StellarNet in action.
+    Navigate to [http://localhost:5173](http://localhost:5173) to see StellarNet in action.
 
 ## Technologies Used
 
@@ -106,6 +106,3 @@ Before you begin, ensure you have the following tools installed:
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
