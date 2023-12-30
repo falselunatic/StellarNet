@@ -3,9 +3,9 @@
   ` I am currently working on this project, and I plan to add visual elements, such as screenshots or demo videos, at a later stage:) `
   
   <img src="public/assets/images/logo for github readme.png" alt="StellarNet Logo">
-  <h1>StellarNet - A Full Stack Social Media App</h1>
+  <h1>StellarNet</h1>
   <p>
-    A modern Social Media App built with React JS, Appwrite, Tailwind CSS, React Query, and the magic of shadcn.
+    A modern Social Media Application built with React JS, Appwrite, Tailwind CSS, React Query, and the magic of shadcn.
   </p>
   <a href="https://github.com/falselunatic/stellarnet">Explore the Demo</a>
 </div>
