@@ -25,8 +25,8 @@
   - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [License](#license)
 - [Storage & Database Design](#storage-and-database-design)
+- [Glimpses](#glimpses)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -96,6 +96,10 @@ Before you begin, ensure you have the following tools installed:
 ## Storage And Database Design
 
 <img width="1440" alt="Database Design" src="https://github.com/falselunatic/StellarNet/assets/97685305/8b5e6a99-42ef-4b6b-a0a7-d97c8dae6d45">
+
+## Glimpses
+
+![Screenshot (106)](https://github.com/falselunatic/StellarNet/assets/97685305/775a81c5-c793-483a-842e-a6c950c6fd9f)
 
 ## Contributors
 
