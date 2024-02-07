@@ -35,7 +35,6 @@ StellarNet is a cutting-edge Social Media App designed to foster meaningful conn
 
 ## Features
 
-- **Real-time Updates**: Experience instant updates on posts, likes, and comments.
 - **Responsive Design**: StellarNet adapts to various devices, providing a consistent experience.
 - **Appwrite Integration**: Leverage the power of Appwrite for backend services, ensuring security and scalability.
 - **Tailwind CSS Styling**: A beautiful, customizable UI made possible by Tailwind CSS.
